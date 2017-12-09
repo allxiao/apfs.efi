@@ -7,9 +7,10 @@ APFS driver in macOS High Sierra, with the verbose logging suppressed.
 Apple introduced Apple File System in macOS High Sierra. In order to boot to macOS from PC,
 you need to add the file system driver `apfs.efi` to your boot loader.
 
-The original `apfs.efi` driver extracted from macOS High Sierra has verbose logging and will
-display some flash messages before you boot into the loader. This repository provides the modified 
-version (and also the original version) so that you don't have to edit the binary yourself.
+The original `apfs.efi` driver extracted from macOS High Sierra (`/usr/standalone/i386/apfs.efi`)
+has verbose logging and will display some flash messages before you boot into the loader. 
+This repository provides the modified version (and also the original version) so that 
+you don't have to edit the binary yourself.
 
 ## 10.13.1
 
